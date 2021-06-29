@@ -3,7 +3,7 @@
 The objective of this DEMO is to showcase the difference in how to integrate Service Bus and Event Hub using an SDK. In addition, we will explore how Logic App can integrate with both the messaging services.
 
 The high level architecture:
-![Architecture](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/highlevel.jpg)
+![Architecture](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/highlevel.jpg)
 
 
 ## Getting started
