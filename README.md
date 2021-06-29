@@ -2,7 +2,9 @@
 
 The objective of this DEMO is to showcase the difference in how to integrate Service Bus and Event Hub using an SDK. In addition, we will explore how Logic App can integrate with both the messaging services.
 
-![Demo Architecture](https://github.com/fdelivamsft/service-bus-vs-event-hub/raw/master/readme/DemoOVerview.jpg)
+The high level architecture:
+![Architecture](https://github.com/fdelivamsft/service-bus-vs-event-hub/raw/master/readme/highlevel.jpg)
+
 
 ## Getting started
 
@@ -80,6 +82,9 @@ The message payload that you can use to generate the payload is the following:
 ![Response](https://github.com/fdelivamsft/service-bus-vs-event-hub/raw/master/readme/response.jpg)
 
 ## Test it
+
+The overall flow should be the following:
+![Demo Architecture](https://github.com/fdelivamsft/service-bus-vs-event-hub/raw/master/readme/DemoOVerview.jpg)
 
 You can test the service-bus with the following commands:
 ```bash
