@@ -36,7 +36,7 @@ As you can notice from the content of the folder "service-bus/topic/" you can fi
 
 This is an snapshot of the one used in this DEMO:
 
-![Filter example](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/filterSubscriber.jpg)
+![Filter example](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/filterSubscriber.jpg)
 
 ### Learn how to use the Javscript SDKs for Service Bus and Event Hub
 
@@ -59,7 +59,7 @@ In each of those file, you will find variables at the top of the files where you
 ## Configure the Logic App
 
 In this section we will create a Logic App with the following logic:
-![logicApp](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/logicApp.jpg)
+![logicApp](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/logicApp.jpg)
 
 1. Please create a HTTP request trigger Logic App. You can follow this [example](https://docs.microsoft.com/en-us/azure/connectors/connectors-native-reqres#add-request-trigger).
 The message payload that you can use to generate the payload is the following:
@@ -71,20 +71,20 @@ The message payload that you can use to generate the payload is the following:
 ```
 
 2. After the HTTP trigger, please create a condition with this basic logic:
-![Condition](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/condition.jpg)
+![Condition](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/condition.jpg)
 
 3. In this step, you should create the Service Bus and Event Hub action to send message in the respective queues. Please check the images and the guides below:
-![Connectors](https://github.com/fdelivamsft/service-bus-vs-event-hub/raw/master/readme/orchestration.jpg)****
+![Connectors](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/orchestration.jpg)****
 [Integrate Logic app with Event Hubs](https://docs.microsoft.com/en-us/azure/connectors/connectors-create-api-azure-event-hubs)
 [Integrate Logic app with Service Bus](https://docs.microsoft.com/en-us/azure/connectors/connectors-create-api-servicebus)
 
 4. In the last step you should provide a response to your client:
-![Response](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/response.jpg)
+![Response](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/response.jpg)
 
 ## Test it
 
 The overall flow should be the following:
-![Demo Architecture](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/master/readme/DemoOVerview.jpg)
+![Demo Architecture](https://github.com/fdelivamsft/service-bus-event-hub-demo/raw/main/readme/DemoOVerview.jpg)
 
 You can test the service-bus with the following commands:
 ```bash
